@@ -1,0 +1,52 @@
+body{
+    margin: 0%;
+    background-color: rgba(11, 109, 109, 0.89);
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+.boite{
+    position: fixed;
+    background-color: aliceblue;
+    width: 25%;
+    top: 74%;
+    left: -40%;
+    border-radius: 15px;
+    transition: all 0.9s;
+}
+.active{
+    left: 35%;
+}
+nav{
+    width: 96%;
+    margin: 2%;
+}
+nav h2{
+    margin: 0%;
+}
+nav img{
+    width: 30px;
+    float: right;
+}
+.boite div p{
+    text-align: justify;
+    margin: 4%;
+    font-size: 14px;
+}
+span a{
+    text-decoration: none;
+    color: rgb(216, 11, 11);
+}
+button{
+  position: relative;
+  background-color: #05465f;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 2%;
+  font-size: 14px;
+  border-radius: 15px;
+  margin: 2%;
+  cursor: pointer;
+  float: right;
+}
